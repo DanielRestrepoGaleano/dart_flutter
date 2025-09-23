@@ -30,3 +30,13 @@ pubspect.yaml => configuración del proyecto, ambiente de desarrollo, sdk, depen
 Todos los widgets tienen 1 o más hijos
 la clase main retorna el MaterialApp, tratar de que el main quede lo más ligero posible
 granular lo más posible las clases
+
+un estado es una variable que se inicializa en un valor y tiene minimo un método que modifica ese valor.
+STATELESS NO MANEJA ESTADOS
+
+Stateless se puede convertir a stateful pero un stateful no se puede convertir en stateless
+
+otra clase hija para los stateful que manejen los estados, el solo no es capaz de manejar los estados
+los estados son todas las variables que tenga.
+
+un estado es una variable contadora.

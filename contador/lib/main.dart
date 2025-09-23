@@ -1,5 +1,6 @@
 /// The `main` function in Dart initializes a Flutter application by running the `Contador` class to
 /// display its UI.
+import 'package:contador/views/screens/contador_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,17 +26,9 @@ class Contador extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: Center(child: Text("Hola flutter")),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            "Contador de clicks",
-            style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-          ),
-          backgroundColor: Colors.amber,
-          foregroundColor: Colors.white,
-          centerTitle: true,
-        ),
-      ),
+      home: contadorScreen(),
     ); //este widget va a acomodar el contenido en el centro
   }
 }
+
+

@@ -1,0 +1,32 @@
+# dart_flutter
+
+Dart es un lenguaje, flutter es como un framework.  
+Flutter ofrece un ambiente fácil de desarrollo para moviles -> android studio.
+es multiplataforma.
+
+Componentes especiales llamados widgets => es una clase. Todas trabajan con parametros nombrados [no es obligatorio new para instanciar un objeto].
+Los diferencia el nombre de la clase y la mayuscula.
+
+es un componente escencial para el ambiente de desarrollo de la interfaz de usuario.
+
+dart todos son objetos en flutter todos son clases.
+
+stateless widget nunca se actualiza pero son más rapidos. no se actualizan los estados, como los const en dart.
+stateful widget si cambian su estado (permiten actualizar)
+
+## archivos
+
+todo está dentro de lib (main.dart)
+sistema operativo linux, ios y windows.
+
+pubspect.yaml => configuración del proyecto, ambiente de desarrollo, sdk, dependencias y dependecias de desarrollo, cupertino y material designe
+
+[Material class](https://api.flutter.dev/flutter/material/Material-class.html)
+
+[Material container](https://api.flutter.dev/flutter/widgets/Container-class.html)
+
+[material design](https://docs.flutter.dev/ui/design/material)
+
+Todos los widgets tienen 1 o más hijos
+la clase main retorna el MaterialApp, tratar de que el main quede lo más ligero posible
+granular lo más posible las clases

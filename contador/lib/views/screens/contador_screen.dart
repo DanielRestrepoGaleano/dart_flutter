@@ -33,7 +33,11 @@ class _contadorScreenState extends State<contadorScreen> {
               style: const TextStyle(fontSize: 150, fontWeight: FontWeight.w100),
             ),
             // Icon(Icons.accessibility_new_outlined)
-            const Text("Clicks", style: TextStyle(fontSize: 30),)
+            if (cnt != 1)
+              const Text("Clicks", style: TextStyle(fontSize: 30),)
+              else 
+              const Text("Click", style: TextStyle(fontSize: 30),)
+
 
           ],
         ),
